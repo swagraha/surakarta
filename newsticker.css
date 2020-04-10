@@ -1,0 +1,25 @@
+/* CSS Document */
+
+#spicenewsticker.loading{display:none}
+.left .news-ticker-controls,.left .ticker-content,.left .BloggerSpice-ticker-title,.left .ticker{float:left}
+.right .news-ticker-controls,.right .ticker-content,.right .BloggerSpice-ticker-title,.right .ticker{float:right}
+.ticker-wrapper.has-js{font-family:'Helvetica',Arial,sans-serif; width:80%; height:28px; overflow:hidden; border:1px solid #f1f1f1; margin:10px 50px 0; line-height:28px; background-color:#FFFFFF; float:none; color:#252525; position:relative}
+.ticker{position:relative; overflow:hidden; width:100%}
+.ticker a{color:#333}
+.BloggerSpice-ticker-title{font-size:12px; text-transform:uppercase; background-color:#252525; padding:0 10px; color:#FFFFFF; font-weight:bold}
+.BloggerSpice-ticker-title:before{font-family:FontAwesome; content:"\f0e7"; color:#FFF; margin-right:5px}
+.ticker-content{text-transform:uppercase; margin:0; position:absolute; font-weight:bold; overflow:hidden; white-space:nowrap; line-height:26px; padding:0 10px; font-size:12px}
+.ticker-content .date{padding:0 5px 0 0; border-right:1px dotted #252525}
+.rabbi-ticker-swipe{position:absolute; top:0; background-color:#FFFFFF; color:#252525; display:block; width:100%; height:28px}
+.rabbi-ticker-swipe span{margin-left:1px; background-color:#FFFFFF; color:#252525; height:28px; width:7px; display:block}
+.news-ticker-controls{padding:0; margin:0; list-style-type:none; position:absolute; right:5px; top:0}
+.news-ticker-controls li{padding:0; margin-left:5px; float:left; cursor:pointer; height:16px; width:16px; display:block}
+.news-ticker-controls li{font-family:FontAwesome; color:#666666; position:relative}
+.news-ticker-controls li.hover{color:#252525}
+.news-ticker-controls li.down{color:#252525}
+.news-ticker-controls li:before{top:0; left:0; line-height:20px}
+.news-ticker-controls li.bs-play-pause:before{content:"\f04b"}
+.news-ticker-controls li.bs-play-pause.paused:before{content:"\f04c"}
+.news-ticker-controls li.bs-prev:before{content:"\f04a"}
+.news-ticker-controls li.bs-next:before{content:"\f04e"}
+.js-hidden{display:none}
